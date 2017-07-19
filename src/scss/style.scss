@@ -1,0 +1,35 @@
+$color: #8a1e09;
+$fontSize: 32px;
+
+.container {
+  color: #3F3F3F;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  color: $color;
+  font-size: $fontSize;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.user:nth-child(1n) .avatar {
+  background: url('../images/1.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.user:nth-child(2n) .avatar {
+  background: url('../images/2.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.user:nth-child(3n) .avatar {
+  background: url('../images/3.jpg') no-repeat center;
+  background-size: cover;
+}
